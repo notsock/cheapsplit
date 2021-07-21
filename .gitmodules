@@ -1,0 +1,9 @@
+[submodule "lib/--force"]
+	path = lib/--force
+	url = git@github.com:daprice/keyswitches.pretty.git
+[submodule "lib/keyswitches.pretty"]
+	path = lib/keyswitches.pretty
+	url = git@github.com:daprice/keyswitches.pretty.git
+[submodule "lib/SparkFun-KiCad-Libraries"]
+	path = lib/SparkFun-KiCad-Libraries
+	url = git@github.com:sparkfun/SparkFun-KiCad-Libraries.git
