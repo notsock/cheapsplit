@@ -759,7 +759,7 @@ U 1 1 610790BB
 P 9050 2550
 F 0 "JP2" H 9050 2681 50  0000 C CNN
 F 1 "Jumper_3_Open" H 9050 2772 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical" H 9050 2550 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 9050 2550 50  0001 C CNN
 F 3 "~" H 9050 2550 50  0001 C CNN
 	1    9050 2550
 	-1   0    0    1   
@@ -770,23 +770,23 @@ U 1 1 6107A94E
 P 9050 4800
 F 0 "JP3" H 9050 5024 50  0000 C CNN
 F 1 "Jumper_3_Open" H 9050 4933 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical" H 9050 4800 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 9050 4800 50  0001 C CNN
 F 3 "~" H 9050 4800 50  0001 C CNN
 	1    9050 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 3300 8350 3300
+	8600 3300 8300 3300
 Wire Wire Line
-	8350 3300 8350 2550
+	8300 3300 8300 2550
 Wire Wire Line
-	8350 2550 8800 2550
+	8300 2550 8800 2550
 Wire Wire Line
-	9500 3300 9750 3300
+	9500 3300 9800 3300
 Wire Wire Line
-	9750 3300 9750 2550
+	9800 3300 9800 2550
 Wire Wire Line
-	9750 2550 9300 2550
+	9800 2550 9300 2550
 Text GLabel 9100 2350 2    50   Input ~ 0
 TX
 Wire Wire Line
@@ -795,17 +795,17 @@ Wire Wire Line
 	9050 2350 9050 2400
 NoConn ~ 6050 7300
 Wire Wire Line
-	9500 3600 9750 3600
+	9500 3600 9800 3600
 Wire Wire Line
-	9750 3600 9750 4800
+	9800 3600 9800 4800
 Wire Wire Line
-	9750 4800 9300 4800
+	9800 4800 9300 4800
 Wire Wire Line
-	8600 3600 8350 3600
+	8600 3600 8300 3600
 Wire Wire Line
-	8350 3600 8350 4800
+	8300 3600 8300 4800
 Wire Wire Line
-	8350 4800 8800 4800
+	8300 4800 8800 4800
 $Comp
 L power:+5V #PWR0103
 U 1 1 610905FE
@@ -826,30 +826,30 @@ Wire Wire Line
 $Comp
 L Jumper:Jumper_3_Open JP1
 U 1 1 6109A03A
-P 7550 3450
-F 0 "JP1" V 7504 3537 50  0000 L CNN
-F 1 "Jumper_3_Open" V 7595 3537 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical" H 7550 3450 50  0001 C CNN
-F 3 "~" H 7550 3450 50  0001 C CNN
-	1    7550 3450
+P 7500 3450
+F 0 "JP1" V 7454 3537 50  0000 L CNN
+F 1 "Jumper_3_Open" V 7545 3537 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 7500 3450 50  0001 C CNN
+F 3 "~" H 7500 3450 50  0001 C CNN
+	1    7500 3450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8600 3500 8250 3500
+	8600 3500 8200 3500
 Wire Wire Line
-	8250 3500 8250 3800
+	8200 3500 8200 3800
 Wire Wire Line
-	8250 3800 7550 3800
+	8200 3800 7500 3800
 Wire Wire Line
-	7550 3800 7550 3700
+	7500 3800 7500 3700
 Wire Wire Line
-	8600 3400 8250 3400
+	8600 3400 8200 3400
 Wire Wire Line
-	8250 3400 8250 3100
+	8200 3400 8200 3100
 Wire Wire Line
-	8250 3100 7550 3100
+	8200 3100 7500 3100
 Wire Wire Line
-	7550 3100 7550 3200
+	7500 3100 7500 3200
 $Comp
 L power:GND #PWR0104
 U 1 1 610A5D66
@@ -864,7 +864,7 @@ $EndComp
 Wire Wire Line
 	7200 3600 7200 3450
 Wire Wire Line
-	7200 3450 7400 3450
+	7200 3450 7350 3450
 NoConn ~ 9500 3500
 NoConn ~ 9500 3400
 $Comp
@@ -933,4 +933,22 @@ F 3 "~" H 2150 7250 50  0001 C CNN
 	1    2150 7250
 	1    0    0    -1  
 $EndComp
+Text GLabel 8600 3700 0    50   Input ~ 0
+row0
+Text GLabel 8600 3800 0    50   Input ~ 0
+row1
+Text GLabel 8600 4300 0    50   Input ~ 0
+row2
+Text GLabel 8600 4400 0    50   Input ~ 0
+row3
+Text GLabel 8600 4200 0    50   Input ~ 0
+col0
+Text GLabel 8600 4100 0    50   Input ~ 0
+col1
+Text GLabel 8600 4000 0    50   Input ~ 0
+col2
+Text GLabel 8600 3900 0    50   Input ~ 0
+col3
+Text GLabel 9500 4200 2    50   Input ~ 0
+col4
 $EndSCHEMATC
